@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/article1', function (req, res) {
+app.get('/article-one', function (req, res) {
   res.send('im learning' );
 });
 app.get('/', function (req, res) {
