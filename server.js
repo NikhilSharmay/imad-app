@@ -12,10 +12,10 @@ app.get('/article-one', function (req, res) {
   res.send('im learning' );
 });
 app.get('/article-two', function (req, res) {
-  res.send('im learning' );
+  res.send('im learning 2' );
 });
 app.get('/article-three', function (req, res) {
-  res.send('im learning' );
+  res.send('im learning 3' );
 });
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
